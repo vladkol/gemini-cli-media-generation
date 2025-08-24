@@ -10,7 +10,7 @@ are examples of using the setup for creating a video with the following idea:
     all AI developers to "Accelerate AI with Cloud Run" workshops.
 
 It uses Veo 3 through **MCP Servers for Genmedia**
-and new Gemini 2.5 Flash Image Generation model
+and new Gemini Flash Image Generation model
 as a way to preserve shot and character consistency
 in multi-shot AI videos.
 
