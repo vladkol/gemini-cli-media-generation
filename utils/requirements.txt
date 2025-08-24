@@ -1,0 +1,3 @@
+google-genai
+google-cloud-storage
+python-dotenv

@@ -1,0 +1,7 @@
+.env
+.venv/
+venv/
+.vscode/
+.gemini/
+vertex-ai-creative-studio/
+.DS_Store
