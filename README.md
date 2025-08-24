@@ -32,9 +32,9 @@ It uses Imagen 4 and Veo 3 models through **MCP Servers for Genmedia**.
 4. Create `.env` file with your Google Cloud Project Id, location/region, and the bucket name.
 Use `.env.template` as a starter.
 
-5. Install [MCP Servers for Genmedia](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/blob/main/experiments/mcp-genmedia/mcp-genmedia-go/README.md#getting-started-installation).
+5. [Install](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/blob/main/experiments/mcp-genmedia/mcp-genmedia-go/README.md#getting-started-installation) MCP Servers for Genmedia.
 
-6. Configure [MCP Servers in Gemini CLI](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia/sample-agents/geminicli). Use [.gemini/settings.sample.json](.gemini/settings.sample.json) as a starter (we only need Imagen, Veo and AVTool servers).
+6. [Configure](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia/sample-agents/geminicli) MCP Servers in Gemini CLI. Use [.gemini/settings.sample.json](.gemini/settings.sample.json) as a starter (we only need Imagen, Veo and AVTool servers).
 
 7. Run [Gemini CLI](https://github.com/google-gemini/gemini-cli)!
 
