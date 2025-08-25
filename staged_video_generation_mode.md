@@ -18,15 +18,15 @@ Before any cameras roll, we establish the core vision. This is our pre-productio
 2. **Establish the Creative Brief:** Synthesize our discussion into a master `CREATIVE_BRIEF.md`. This document is the single source of truth for the project and will contain:
       * **Logline:** A one-sentence summary of the project.
       * **Overall Visual Style:** Key aesthetic descriptors (e.g., "Cyberpunk noir," "Gritty found-footage", "Mobile phone video" - may combine those).
-      * **Key Characters:** Consistent descriptions using the [character consistency guide](vertex-ai-creative-studio/experiments/veo3-character-consistency/prompts.py).
-      * **Key Items/Props:** Consistent descriptions using the [item consistency guide](vertex-ai-creative-studio/experiments/veo3-item-consistency/prompts.py).
-      * **Environment Bible:** A description of the world/setting.
+      * **Key Characters:** Consistent descriptions using prompts the [character consistency guide](https://raw.githubusercontent.com/GoogleCloudPlatform/vertex-ai-creative-studio/refs/heads/main/experiments/veo3-character-consistency/prompts.py).
+      * **Key Items/Props:** Consistent descriptions using prompts in the [item consistency guide](https://raw.githubusercontent.com/GoogleCloudPlatform/vertex-ai-creative-studio/refs/heads/main/experiments/veo3-item-consistency/prompts.py).
+      * **Environment Bible:** A detailed description of the world and/or location, and setting.
 
 ### Phase 1: Scene Pre-visualization & Master Prompt Engineering
 
 Here, we design a specific shot. We work from the complete vision down to the visual details, ensuring perfect alignment between the generated image and the final video.
 
-1. **Develop the Master Shot Prompt:** Based on the `CREATIVE_BRIEF.md`, we will engineer the complete, detailed prompt for a single video shot. This prompt will include every core component as defined in the [Veo 3 Guides](https://cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide). The prompt will be structured in Markdown for clarity, covering all required details. The Master Shot Prompt must be extremely verbose. It's like a detailed guide for the production crew.
+1. **Develop the Master Shot Prompt:** Based on the `CREATIVE_BRIEF.md`, we will engineer the complete, detailed prompt for a single video shot. This prompt will include every core component as defined in the [Veo 3 Guide](https://cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide). The prompt will be structured in Markdown for clarity, covering all required details. The Master Shot Prompt must be extremely verbose. It's like a detailed guide for the production crew.
 
 2. **Derive the Keyframe Image Prompt:** From the **Master Shot Prompt**, you will intelligently extract *only the visual components* to create a derived prompt for a still image. This ensures the still frame is a perfect contextual match for the video's intent.
 Use the same guidance and extensive components of the prompt as they recommend in [Imagen 4 Guide](https://cloud.google.com/vertex-ai/generative-ai/docs/image/img-gen-prompt-guide).
@@ -88,6 +88,8 @@ These are the fundamental rules of our studio. They are non-negotiable.
 
 ### Content & Consistency
 
+You must ensure respective prompts meet the following requirements:
+
 * **Character and Environment:** Every single image and video prompt **must** contain a sufficient description of the characters and environment to maintain consistency across shots.
 
 * **Detailed Audio:** For video, you **must** precisely describe every character's voice:
@@ -96,11 +98,13 @@ These are the fundamental rules of our studio. They are non-negotiable.
       * Accent
       * A specific manners of speaking
       * Pitch
-      * Loudness
+      * Loudness (overall and relative to the background)
       * Timbre
       * Articulation
       * Resonance
       * Health
+
+Microphone and distance to the microphone (must be based on how it **should sound**, not what was used for real.)
 
 All environmental sounds, noises, and music must also be detailed in the prompt.
 
@@ -113,10 +117,11 @@ All environmental sounds, noises, and music must also be detailed in the prompt.
       **First Keyframe or when no dependency on other images:**
             * **Server:** `imagen`
             * **Model:** `imagen-4.0-generate-001` (Imagen 4)
+            * **Aspect Ratio:** 16:9
       **Keyframes with dependency on another image or keyframe:**
             ** Run `utils/create_shot_image.py` tool as `python3 utils/create_shot_image.py` plus parameters
             Usage:
-                  python3 create_shot_image.py [-h] [--source-image SOURCE_IMAGE] --prompt PROMPT [--output-directory OUTPUT_DIRECTORY] [--output-name-prefix OUTPUT_NAME_PREFIX] [--model MODEL]
+                  python3 create_shot_image.py [-h] [--source-image SOURCE_IMAGE] --prompt PROMPT [--output-directory OUTPUT_DIRECTORY] [--output-name-prefix OUTPUT_NAME_PREFIX]
 * **Video Generation:**
   * **Lenght:** Up to 8 seconds.
   * **Aspect Ratio:** 16:9 (only this aspect ratio is supported)

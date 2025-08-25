@@ -24,6 +24,8 @@ from google.genai import types
 
 from dotenv import load_dotenv
 
+USE_VAI_OVERRIDE = False
+
 def save_binary_file(file_path, data):
     with open(file_path, "wb") as f:
         f.write(data)
@@ -45,8 +47,6 @@ def load_image_file(file_path: str) -> types.Part:
     )
 
 def generate(args: typing.Sequence[str]):
-    client = genai.Client()
-
     parser = argparse.ArgumentParser(
         description="Gemini 2.5 Image Generator"
     )
@@ -91,6 +91,10 @@ def generate(args: typing.Sequence[str]):
 
     options = parser.parse_args(args)
 
+    client = genai.Client(
+        vertexai=False,
+        api_key=os.environ["GEMINI_API_KEY"]
+    )
     model = options.model
     parts = [
         load_image_file(options.source_image)
