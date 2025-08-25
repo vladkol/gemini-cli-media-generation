@@ -1,2 +1,11 @@
-A close-up, vertical, mobile phone video of Chip, a clever-looking squirrel, wearing a tiny dark hoodie. He is on a sunny beach, with sand and blurry ocean waves in the background. The lighting is bright and natural. The squirrel is looking directly at the camera, gesticulating with his tiny paws as he speaks. His mouth should be open as if he's in the middle of a sentence. The video should have a shaky, candid, 'shot-on-a-mobile-phone' feel.
-**Audio:** Chip's voice is fast-paced, high-pitched but masculine, and full of technical jargon. The sound of gentle waves and distant seagulls is in the background. He says, 'Struggling to get your models from notebook to production? Is scaling your AI giving you a headache?'
+
+### **Master Shot Prompt (Shot 1):**
+
+"**Original Keyframe Prompt:** A cinematic, photorealistic, eye-level, medium close-up shot of Squeaky, a charming grey squirrel, standing on a pristine white sand beach. Squeaky is looking directly into the camera with a friendly and engaging expression. He is wearing a tiny, well-fitted t-shirt with the Google logo on it. The background features gentle, turquoise waves softly rolling onto the shore and the base of a palm tree. The lighting is bright and sunny, casting soft shadows. The image should have a shallow depth of field, making Squeaky pop against the beautifully blurred beach background. The overall mood is professional, yet whimsical and inviting.
+
+**Video Action:** Squeaky the squirrel looks directly at the camera and speaks with energetic and convincing mouth movements that are perfectly lip-synced to the dialogue. He nods his head for emphasis and gestures subtly with his tiny paws. His expression is earnest and exciting.
+
+**Audio:**
+*   **Squeaky's Voice:** The voice is high-pitched but clear, friendly, and full of energy. The articulation is fast but perfectly understandable, with a slightly breathless, enthusiastic timbre.
+*   **Dialogue:** 'Hey there, AI developers! Stop scrolling! Are you ready to accelerate your AI projects? Then you *need* to be at the "Accelerate AI with Cloud Run" workshops! We're talking deep dives into code, deployment, and production-grade AI workloads. It's going to be nuts!'
+*   **Soundscape:** The sound of gentle ocean waves lapping on the shore, a soft sea breeze, and a single, distant seagull call at the beginning of the shot."

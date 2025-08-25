@@ -1,2 +1,11 @@
-A horizontal, mobile phone video of Chip, the squirrel in a dark hoodie, on a sunny beach. He has a tiny, open backpack on the sand next to him and is in the middle of putting a miniature, open laptop into it. Chip is looking over his shoulder towards the camera with a friendly, inviting expression, as if he's giving one last piece of advice before leaving. The video should have a shaky, candid, 'shot-on-a-mobile-phone' feel.
-**Audio:** Chip's voice is fast-paced, high-pitched but masculine, and full of technical jargon. The sound of gentle waves and distant seagulls is in the background. He says, 'Register for 'Accelerate AI with Cloud Run' workshops, and learn how to run your AI workloads in production.'
+
+### **Master Shot Prompt (Shot 2):**
+
+"**Original Keyframe Prompt:** A cinematic, photorealistic, eye-level, medium shot of Squeaky, a charming grey squirrel, on a pristine white sand beach. Squeaky is turned slightly to the side, with one paw lifted, as if he is about to run out of the frame. He has a look of excited determination on his face. He is still wearing his tiny, well-fitted t-shirt with the Google logo. The background of gentle, turquoise waves and a palm tree is consistent with the previous shot. The lighting is bright and sunny. The image should have a shallow depth of field.
+
+**Video Action:** Squeaky excitedly says his line with perfect lip-sync, then immediately zips off-screen to the right, leaving a tiny puff of sand behind. The camera holds on the empty beach for a brief moment after he exits.
+
+**Audio:**
+*   **Squeaky's Voice:** The voice is high-pitched, clear, and full of excitement.
+*   **Dialogue:** "I'm going to register right now!"
+*   **Soundscape:** The sound of gentle ocean waves continues. A fast, cartoonish 'scampering' sound effect plays as Squeaky runs off."
