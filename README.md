@@ -7,10 +7,11 @@ with planned iterative ideation and media generation.
 Files in `prompts`, `generated_images` and `generated_videos` directories
 are examples of using the setup for creating a video with the following initial idea:
 
-    I want to create a viral funny video with a squirrel on a beach inviting all AI developers
-    to "Accelerate AI with Cloud Run" workshops.
+    I want to create a viral funny video with a capybara on a beach inviting all AI developers
+    to "Accelerate AI with Cloud Run" workshops to dive deep into code, deployment, and production-grade AI workloads.
 
 It uses Imagen 4 and Veo 3 models through **MCP Servers for Genmedia**.
+It also edits images `gemini-2.5-flash-image-preview` 🍌 model for character and scene consistency.
 
 ## How to try
 
