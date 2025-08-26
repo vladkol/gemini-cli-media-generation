@@ -11,7 +11,8 @@ are examples of using the setup for creating a video with the following initial 
     to "Accelerate AI with Cloud Run" workshops to dive deep into code, deployment, and production-grade AI workloads.
 
 It uses Imagen 4 and Veo 3 models through **MCP Servers for Genmedia**.
-It also edits images `gemini-2.5-flash-image-preview` 🍌 model for character and scene consistency.
+
+It also edits images using `gemini-2.5-flash-image-preview` 🍌 model for character and scene consistency.
 
 ## How to try
 
