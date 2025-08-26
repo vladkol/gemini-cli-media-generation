@@ -85,7 +85,7 @@ def generate(args: typing.Sequence[str]):
         required=False,
         default=os.environ.get(
             "MM_MODEL_NAME",
-            "gemini-2.5-flash-preview-image-08-25"
+            "gemini-2.5-flash-image-preview"
         )
     )
 
