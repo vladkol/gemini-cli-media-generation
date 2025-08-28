@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "veo": {
+      "command": "mcp-veo-go",
+      "env": {
+        "MCP_REQUEST_MAX_TOTAL_TIMEOUT": "240000",
+        "MCP_SERVER_REQUEST_TIMEOUT": "30000",
+        "GENMEDIA_BUCKET": "YOUR_GCS_BUCKET_NAME",
+        "PROJECT_ID": "YOUR_PROJECT_ID"
+      }
+    },
+    "imagen": {
+      "command": "mcp-imagen-go",
+      "env": {
+        "MCP_SERVER_REQUEST_TIMEOUT": "55000",
+        "GENMEDIA_BUCKET": "YOUR_GCS_BUCKET_NAME",
+        "PROJECT_ID": "YOUR_PROJECT_ID"
+      }
+    },
+    "avtool": {
+      "command": "mcp-avtool-go",
+      "env": {
+        "PROJECT_ID": "YOUR_PROJECT_ID",
+        "MCP_SERVER_REQUEST_TIMEOUT": "55000"
+      }
+    }
+  }
+}
