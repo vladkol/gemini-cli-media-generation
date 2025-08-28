@@ -64,6 +64,8 @@ Use `.env.template` as a starter.
 
 10. Ask it to create a video based on your idea!
 
+11. [Sign up](https://cloud.google.com/blog/topics/developers-practitioners/accelerate-ai-with-cloud-run-sign-up-now-for-a-developer-workshop-near-you?utm_campaign=CDR_0xc245fc42_default_b433386287&utm_medium=external&utm_source=blog) for an **Accelerate AI with Cloud Run** developer workshop near you! 🚀
+
 ## NOTE
 
 This project is a demonstration of vibe coding intended to provide an example with verification through human feedback.
