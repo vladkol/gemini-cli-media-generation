@@ -5,4 +5,7 @@ venv/
 .gemini/
 vertex-ai-creative-studio/
 .DS_Store
-!./.gemini/settings.sample.json
+!.gemini/settings.sample.json
+node_modules/
+.npm/
+
