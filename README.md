@@ -14,7 +14,7 @@ Demo video: [TODO](https://youtube.com)
 
 ## How to try
 
-0. Install [gcloud CLI](https://cloud.google.com/sdk/docs/install) and [Gemini CLI](https://github.com/google-gemini/gemini-cli?tab=readme-ov-file#-installation).
+0. Install [gcloud CLI](https://cloud.google.com/sdk/docs/install?utm_campaign=CDR_0xc245fc42_default_b433386287&utm_medium=external&utm_source=blog) and [Gemini CLI](https://github.com/google-gemini/gemini-cli?tab=readme-ov-file#-installation).
 
     > If you didn't use Google Cloud before, get a [free trial](https://cloud.google.com/free?utm_campaign=CDR_0xc245fc42_default_b433386287&utm_medium=external&utm_source=blog).
 
